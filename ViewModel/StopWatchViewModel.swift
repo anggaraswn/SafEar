@@ -2,6 +2,8 @@ import SwiftUI
 import Combine
 
 class StopwatchViewModel: ObservableObject {
+    static let shared = StopwatchViewModel()
+    
     @Published var hoursString = "00"
     @Published var minutesString = "00"
     @Published var secondsString = "00"
@@ -10,6 +12,8 @@ class StopwatchViewModel: ObservableObject {
     
     private var timer: AnyCancellable?
     private var startDate: Date?
+    
+    private init() {}
     
     func start() {
         reset() // Ensure the state is reset before starting

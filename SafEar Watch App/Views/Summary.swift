@@ -10,7 +10,7 @@ import SwiftUI
 struct Summary: View {
     @EnvironmentObject var healthManager: HealthManager
     @EnvironmentObject var router: Router
-    @ObservedObject var viewModel = StopwatchViewModel()
+    @ObservedObject var viewModel = StopwatchViewModel.shared
     
     var body: some View {
         VStack{

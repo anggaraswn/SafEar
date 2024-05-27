@@ -10,7 +10,7 @@ import SwiftUI
 struct StopWatch: View {
     @EnvironmentObject var router: Router
     @State private var countdown:Int? = nil
-    @ObservedObject var viewModel = StopwatchViewModel()
+    @ObservedObject var viewModel = StopwatchViewModel.shared
     
     var body: some View {
         VStack{
@@ -56,7 +56,7 @@ struct StopWatch: View {
                     .onTapGesture {
                         viewModel.stop()
                         let formattedTime = String(format: "%02d:%02d:%02d", Int(viewModel.hoursString) ?? 0, Int(viewModel.minutesString) ?? 0, Int(viewModel.secondsString) ?? 0)
-                        router.navigate(destination: .summary(time: formattedTime))
+                        router.navigate(destination: .summary)
                     }
             }
         }

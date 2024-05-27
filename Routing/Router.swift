@@ -14,7 +14,7 @@ class Router: ObservableObject{
     
     enum Destination: Hashable{
         case stopwatch
-        case summary(time: String)
+        case summary
         case warning
         case weeklyExposure
     }

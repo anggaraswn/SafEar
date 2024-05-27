@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Warning: View {
     @EnvironmentObject var healthManager: HealthManager
-    @ObservedObject var viewModel = StopwatchViewModel()
+    @ObservedObject var viewModel = StopwatchViewModel.shared
     
     var body: some View {
         VStack{
