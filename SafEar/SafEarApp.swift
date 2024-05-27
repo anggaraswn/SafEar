@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SafEarApp: App {
+    @StateObject var healthManager = HealthManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(healthManager)
         }
     }
 }

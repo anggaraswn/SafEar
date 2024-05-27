@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF262FF22C04281700ACCD6B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF262FF12C04281700ACCD6B /* Home.swift */; };
+		BF8025DE2BFDE54300E450F6 /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8025DD2BFDE54300E450F6 /* StopWatchViewModel.swift */; };
+		BF8025DF2BFDE54300E450F6 /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8025DD2BFDE54300E450F6 /* StopWatchViewModel.swift */; };
+		BF8E47562C030C55007488D2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E47552C030C55007488D2 /* Router.swift */; };
+		BF8E47572C030C55007488D2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E47552C030C55007488D2 /* Router.swift */; };
+		BF8E475C2C030DC9007488D2 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E475B2C030DC9007488D2 /* Summary.swift */; };
+		BF8E475D2C030DC9007488D2 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E475B2C030DC9007488D2 /* Summary.swift */; };
+		BF8E475F2C030DF3007488D2 /* Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E475E2C030DF3007488D2 /* Warning.swift */; };
+		BF8E47602C030DF3007488D2 /* Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E475E2C030DF3007488D2 /* Warning.swift */; };
+		BF8E47622C030E15007488D2 /* WeeklyExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E47612C030E15007488D2 /* WeeklyExposure.swift */; };
+		BF8E47632C030E15007488D2 /* WeeklyExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E47612C030E15007488D2 /* WeeklyExposure.swift */; };
+		BF8E47652C0321B9007488D2 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E47642C0321B9007488D2 /* StopWatch.swift */; };
+		BF8E47662C0321B9007488D2 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E47642C0321B9007488D2 /* StopWatch.swift */; };
+		BF9CFB312BF5E55F00D67492 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9CFB302BF5E55F00D67492 /* HealthManager.swift */; };
+		BF9CFB322BF5E55F00D67492 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9CFB302BF5E55F00D67492 /* HealthManager.swift */; };
 		BFBA80862BF5107C000FE46B /* SafEarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA80852BF5107C000FE46B /* SafEarApp.swift */; };
 		BFBA80882BF5107C000FE46B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA80872BF5107C000FE46B /* ContentView.swift */; };
 		BFBA808A2BF5107C000FE46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA80892BF5107C000FE46B /* Assets.xcassets */; };
@@ -16,6 +31,10 @@
 		BFBA809A2BF5107C000FE46B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA80992BF5107C000FE46B /* ContentView.swift */; };
 		BFBA809C2BF5107D000FE46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA809B2BF5107D000FE46B /* Assets.xcassets */; };
 		BFBA809F2BF5107D000FE46B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA809E2BF5107D000FE46B /* Preview Assets.xcassets */; };
+		BFCFCBE02C0364C1004129C7 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCFCBDF2C0364C1004129C7 /* ProgressBarView.swift */; };
+		BFCFCBE12C0364C1004129C7 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCFCBDF2C0364C1004129C7 /* ProgressBarView.swift */; };
+		BFF13FD62C01B460008C92AF /* AudioMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13FD52C01B460008C92AF /* AudioMonitor.swift */; };
+		BFF13FEB2C01CD32008C92AF /* AudioOutputMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF13FEA2C01CD32008C92AF /* AudioOutputMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +62,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF0403972BFA37AB00D20D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BF262FF12C04281700ACCD6B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BF8025DD2BFDE54300E450F6 /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
+		BF8E47552C030C55007488D2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BF8E475B2C030DC9007488D2 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		BF8E475E2C030DF3007488D2 /* Warning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warning.swift; sourceTree = "<group>"; };
+		BF8E47612C030E15007488D2 /* WeeklyExposure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyExposure.swift; sourceTree = "<group>"; };
+		BF8E47642C0321B9007488D2 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		BF9CFB302BF5E55F00D67492 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		BF9CFB332BF5E5C700D67492 /* SafEar Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SafEar Watch App.entitlements"; sourceTree = "<group>"; };
+		BF9CFB342BF5E5D300D67492 /* SafEar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafEar.entitlements; sourceTree = "<group>"; };
 		BFBA80822BF5107C000FE46B /* SafEar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBA80852BF5107C000FE46B /* SafEarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafEarApp.swift; sourceTree = "<group>"; };
 		BFBA80872BF5107C000FE46B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +83,11 @@
 		BFBA80992BF5107C000FE46B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFBA809B2BF5107D000FE46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBA809E2BF5107D000FE46B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFCFCBDF2C0364C1004129C7 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		BFF13FD52C01B460008C92AF /* AudioMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMonitor.swift; sourceTree = "<group>"; };
+		BFF13FD72C01B7A7008C92AF /* SafEar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafEar-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFF13FEA2C01CD32008C92AF /* AudioOutputMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputMonitor.m; sourceTree = "<group>"; };
+		BFF13FEC2C01CD50008C92AF /* AudioOutputMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioOutputMonitor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +108,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF762BEA2BFCAA94006EC984 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA80992BF5107C000FE46B /* ContentView.swift */,
+				BF8E475B2C030DC9007488D2 /* Summary.swift */,
+				BF8E475E2C030DF3007488D2 /* Warning.swift */,
+				BF8E47612C030E15007488D2 /* WeeklyExposure.swift */,
+				BF8E47642C0321B9007488D2 /* StopWatch.swift */,
+				BFCFCBDF2C0364C1004129C7 /* ProgressBarView.swift */,
+				BF262FF12C04281700ACCD6B /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF7B53982BFD033E0001435F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BFF13FD52C01B460008C92AF /* AudioMonitor.swift */,
+				BFF13FD72C01B7A7008C92AF /* SafEar-Bridging-Header.h */,
+				BFF13FEA2C01CD32008C92AF /* AudioOutputMonitor.m */,
+				BFF13FEC2C01CD50008C92AF /* AudioOutputMonitor.h */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BF8E47522C0309D7007488D2 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				BF8E47552C030C55007488D2 /* Router.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		BF9CFB2F2BF5E54300D67492 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				BF9CFB302BF5E55F00D67492 /* HealthManager.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
 		BFBA80792BF5107B000FE46B = {
 			isa = PBXGroup;
 			children = (
+				BF8E47522C0309D7007488D2 /* Routing */,
+				BFE035F42BFDE48B00D13791 /* ViewModel */,
+				BF7B53982BFD033E0001435F /* Audio */,
+				BF9CFB2F2BF5E54300D67492 /* Health */,
 				BFBA80842BF5107C000FE46B /* SafEar */,
 				BFBA80962BF5107C000FE46B /* SafEar Watch App */,
 				BFBA80832BF5107C000FE46B /* Products */,
@@ -94,6 +174,8 @@
 		BFBA80842BF5107C000FE46B /* SafEar */ = {
 			isa = PBXGroup;
 			children = (
+				BF0403972BFA37AB00D20D32 /* Info.plist */,
+				BF9CFB342BF5E5D300D67492 /* SafEar.entitlements */,
 				BFBA80852BF5107C000FE46B /* SafEarApp.swift */,
 				BFBA80872BF5107C000FE46B /* ContentView.swift */,
 				BFBA80892BF5107C000FE46B /* Assets.xcassets */,
@@ -113,8 +195,9 @@
 		BFBA80962BF5107C000FE46B /* SafEar Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				BF762BEA2BFCAA94006EC984 /* Views */,
+				BF9CFB332BF5E5C700D67492 /* SafEar Watch App.entitlements */,
 				BFBA80972BF5107C000FE46B /* SafEarApp.swift */,
-				BFBA80992BF5107C000FE46B /* ContentView.swift */,
 				BFBA809B2BF5107D000FE46B /* Assets.xcassets */,
 				BFBA809D2BF5107D000FE46B /* Preview Content */,
 			);
@@ -127,6 +210,14 @@
 				BFBA809E2BF5107D000FE46B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFE035F42BFDE48B00D13791 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF8025DD2BFDE54300E450F6 /* StopWatchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +271,11 @@
 				TargetAttributes = {
 					BFBA80812BF5107C000FE46B = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					BFBA80912BF5107C000FE46B = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -232,7 +325,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFBA80882BF5107C000FE46B /* ContentView.swift in Sources */,
+				BFCFCBE02C0364C1004129C7 /* ProgressBarView.swift in Sources */,
+				BF8E47652C0321B9007488D2 /* StopWatch.swift in Sources */,
+				BF8E475C2C030DC9007488D2 /* Summary.swift in Sources */,
+				BF8E475F2C030DF3007488D2 /* Warning.swift in Sources */,
+				BF8E47622C030E15007488D2 /* WeeklyExposure.swift in Sources */,
+				BF9CFB312BF5E55F00D67492 /* HealthManager.swift in Sources */,
+				BFF13FEB2C01CD32008C92AF /* AudioOutputMonitor.m in Sources */,
+				BF8E47562C030C55007488D2 /* Router.swift in Sources */,
 				BFBA80862BF5107C000FE46B /* SafEarApp.swift in Sources */,
+				BFF13FD62C01B460008C92AF /* AudioMonitor.swift in Sources */,
+				BF8025DE2BFDE54300E450F6 /* StopWatchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +344,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFBA809A2BF5107C000FE46B /* ContentView.swift in Sources */,
+				BF8E47602C030DF3007488D2 /* Warning.swift in Sources */,
+				BF9CFB322BF5E55F00D67492 /* HealthManager.swift in Sources */,
+				BF262FF22C04281700ACCD6B /* Home.swift in Sources */,
 				BFBA80982BF5107C000FE46B /* SafEarApp.swift in Sources */,
+				BF8E47572C030C55007488D2 /* Router.swift in Sources */,
+				BF8E47632C030E15007488D2 /* WeeklyExposure.swift in Sources */,
+				BF8E47662C0321B9007488D2 /* StopWatch.swift in Sources */,
+				BF8E475D2C030DC9007488D2 /* Summary.swift in Sources */,
+				BF8025DF2BFDE54300E450F6 /* StopWatchViewModel.swift in Sources */,
+				BFCFCBE12C0364C1004129C7 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +487,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_ENTITLEMENTS = "SafEar Watch App/SafEar Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafEar Watch App/Preview Content\"";
@@ -382,6 +496,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SafEar;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your headphone audio levels to monitor your listening habits.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = nanoRHINOS.SafEar;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,6 +509,8 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Audio/SafEar Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 10.2;
@@ -405,6 +522,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_ENTITLEMENTS = "SafEar Watch App/SafEar Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafEar Watch App/Preview Content\"";
@@ -412,6 +531,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SafEar;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your headphone audio levels to monitor your listening habits.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = nanoRHINOS.SafEar;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -424,6 +544,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Audio/SafEar Watch App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
@@ -437,13 +558,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SafEar/SafEar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafEar/Preview Content\"";
 				DEVELOPMENT_TEAM = 7DK5H7RWQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafEar/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SafEar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your headphone audio levels to monitor your listening habits.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +585,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Audio/SafEar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,13 +598,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SafEar/SafEar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafEar/Preview Content\"";
 				DEVELOPMENT_TEAM = 7DK5H7RWQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafEar/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SafEar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your headphone audio levels to monitor your listening habits.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -492,6 +625,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Audio/SafEar-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
